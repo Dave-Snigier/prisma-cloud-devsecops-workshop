@@ -7,13 +7,15 @@ resource "aws_s3_bucket" "dev_s3" {
 
   tags = {
     Environment          = "Dev"
-    git_commit           = "a14d80ef64e972e56947320fceb609b5418f91b0"
+    git_commit           = "8fedcf7ad7e8815656c0df85339fdc6e21884cd7"
     git_file             = "code/build/s3.tf"
     git_last_modified_at = "2024-02-20 17:30:52"
     git_last_modified_by = "dave@davesnigier.com"
     git_modifiers        = "dave"
     git_org              = "Dave-Snigier"
     git_repo             = "prisma-cloud-devsecops-workshop"
+    yor_name             = "dev_s3"
+    yor_trace            = "44bbba85-567c-4809-89cf-22dfddcff378"
   }
 }
 
